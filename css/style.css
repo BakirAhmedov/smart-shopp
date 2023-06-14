@@ -1,0 +1,170 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.nav__link-item {
+  color: #595959;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.nav__link-item.active,
+.nav__link-item:hover {
+  color: #004643;
+}
+.btn {
+  padding: 0 20px;
+  line-height: 38px;
+  border: 1px solid #222;
+}
+.nav__btn:hover {
+  color: #fff;
+}
+.section__title {
+  color: #004643;
+  font-weight: 700;
+  line-height: 65px;
+  font-size: 54px;
+}
+.card__title {
+  color: #004643;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.section__text {
+  color: #595959;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Home section */
+.home {
+  background-image: url(../images/Home_background.png);
+  background-size: cover;
+}
+
+.home__back {
+  width: 320px;
+}
+.home__btn {
+  width: 250px;
+  color: #004643;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.summer {
+  position: relative;
+}
+.home__back-summer {
+  position: absolute;
+}
+
+/* Support */
+.support {
+  margin-top: 80px !important;
+}
+.support__card {
+  height: 200px;
+  background-color: #fffaeb;
+}
+.support__card img {
+  width: 45px;
+}
+/* Smart */
+.smart__card {
+  height: 400px;
+}
+.smart__img {
+  width: 250px;
+  height: 280px;
+}
+.car__1 {
+  background-color: #d8f3dc;
+}
+.car__2 {
+  background-color: #bce784;
+}
+.car__3 {
+  background-color: #96e072;
+}
+.car__4 {
+  background-color: #f3dd7e;
+}
+.car__5 {
+  background-color: #f145d5;
+}
+/* Winter Collection Season */
+.winter__collection-seans {
+  background-image: url(../images/image_Season_Sale.png);
+  background-size: cover;
+}
+.winter__img {
+  width: 320px;
+}
+
+.card__b {
+  background-image: url(../images/back_vektor.png);
+  background-repeat: no-repeat;
+  background-size: 173px 221px;
+}
+
+.most__selling {
+  background-color: #fffaeb;
+}
+/* What’s New */
+
+.wats__img {
+  width: 320px;
+  height: 617px;
+  border-radius: 12px;
+}
+.wats__collection {
+  height: 160px;
+}
+/*  */
+.btn-success-custom {
+  border: 1px solid;
+}
+.join__our-newsletter {
+  background-color: #fffaeb;
+  border-radius: 32px;
+}
+.newesletter {
+  width: 280px;
+  height: 220px;
+}
+.btn__newesleter {
+  background-color: #2f8380;
+  color: #fff;
+}
+.btn__newesleter:hover {
+  background-color: #92b9b9;
+}
+/* Footer */
+.hr {
+  height: 2px;
+  color: #fffaeb;
+}
+.footer {
+  background-color: #595959;
+}
+.footer__menu {
+  display: flex;
+}
+.foot__link-item {
+  color: #fffaeb;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.foot__link-item:hover {
+  color: #3f4140;
+}
+.footer__end {
+  background-color: #000;
+  color: #fff !important;
+}
